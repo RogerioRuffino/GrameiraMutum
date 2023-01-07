@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:wght@100&family=Roboto:wght@100&family=Rowdies:wght@300&display=swap');
+* {
+    margin: 0;
+    padding:0;
+    /* box-sizing: border-box; */
+    border:0;
+  }
+    
+  body {
+    background-color:rgb(247, 237, 237);
+    /* font-family: 'DynaPuff', cursive; */
+    /* font-size:32px; */
+    text-align:left;  
+    padding:10px;
+    width:100;
+    font-family: 'Rowdies', cursive;
+  }
+
+  /* ========================================== */
+  nav {
+    background-color: black;
+    padding:0 15px;
+     border:2px solid lightsalmon;
+    border-radius:13px;   
+} 
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.menu, .submenu {
+    list-style-type: none;
+    
+}
+
+.logo {
+    padding: 0px 10px 8px 0;
+    font-size:30px;
+}
+
+.item {
+    padding:10px;
+} 
+ 
+.item.button {
+    padding: 9px 5px;
+}
+.item:not(.button) a:hover,
+.item a:hover::after {
+    color: rgb(216, 221, 172);
+} 
+
+/* =========== */
+/* Mobile menu */
+/* =========== */ 
+
+.menu {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.menu li a{
+  display:block;
+  padding: 0px 5px; 
+} 
+
+.menu li.subitem  a {
+  padding: 15px;
+}
+
+.toggle {
+  order: 1;
+  font-size: 30px;
+  
+} 
+
+.logo {
+  order: 1;
+}
+.item {
+  order:3;
+  text-align:center;
+  width:100%;
+  /* padding-top:5px; */
+  display:none;
+  
+}
+.active .item {
+  display:block   
+}
+.item.button.secondary  { 
+  border-bottom:1px rgb(252, 248, 248) solid;
+  order:2;
+  font-size: 16px;
+  font-style: italic;
+} 
+
+/* ================= */
+/* Submenu  mobile  */
+/* =============== */
+.submenu{
+  display:none;   
+}
+.submenu-active .submenu {
+  display:block;
+  color:rgb(63, 41, 9);
+}
+.has-submenu i {
+  font-size: 12px;
+}
+
+.has-submenu > a::after {
+  font-family:"Font Awesome 5 Free";
+  font-size:12px;
+  line-height:16px;
+  font-weight:900;
+  content: "\f078";
+  color:rgb(206, 15, 15);
+  padding-left:5px;
+}
+
+.subitem a {
+  padding:10px 15px;    
+}
+.submenu-active {
+  background-color: rgb(2, 44, 4);
+  border-radius: 3px;
+  color:rgb(241, 232, 232);
+} 
+
+  
+  /* ========================================== */
+
+.cab{
+  display:inline-flex;
+  background-color: rgb(50, 90, 2);
+  padding-left:3px;
+  padding-top:3px;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  width:100%;
+  height: auto;
+  /* text-align: center; */
+  align-items: center;
+  
+}
+
+  .title{
+    /* background-color: black; */
+    color:rgb(221, 191, 126);
+    font-size: 25px;
+    text-align: center;
+    padding-left: 25px; 
+  }
+  
+  .image{
+    width:15%;
+    padding-left: 3px;
+  }
+  .converter{
+    background-color: rgb(27, 152, 69);
+    padding-left:5px;
+    padding-bottom: 3px;
+    height: auto;
+    margin-bottom: 10px;
+    width:100%;
+
+  }
+    
+  .lab1 {
+    color:rgb(248, 246, 246);
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius: 3px;   }
+
+  .lab2{
+    width:120px;
+    color:rgb(230, 182, 92);
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 3px;  
+  }
+
+  span{
+    color:white;
+  }
+
+  .sel2{
+    width:150px;
+    height: 30px;
+    border:1px rgb(28, 22, 22) solid
+  }
+
+  .prec{
+    background-color: rgb(248, 249, 249);
+    font-size: 13px;
+    width:150px;
+    height: 20px;
+    border:1px darkgreen solid;
+    text-align: center;
+
+  }
+  input{
+    background-color: rgb(248, 249, 249);
+    font-size: 13px;
+    width:170px;
+    height: 30px;
+    border:1px darkgreen solid;
+    text-align: center;
+  }
+
+  
+/* ========================================================================== */
+/* -------------------Display responsiove celular--------------------------- */
+/* ========================================================================== */
+@media screen and (max-width: 300px) {
+
+  .title{
+    /* background-color: black; */
+    color:rgb(221, 191, 126);
+    font-size: 17px;
+    text-align: center;
+    padding-left: 25px; 
+  }
+  
+  .image{
+    width:15%;
+    padding-left: 3px;
+  }
+
+  .converter{
+    background-color: rgb(27, 152, 69);
+    padding-left:5px;
+    padding-bottom: 3px;
+    height: auto;
+    margin-bottom: 10px;
+    width:100%;
+
+  }
+    
+  .lab1 {
+    color:rgb(248, 246, 246);
+    font-size: 12px;
+    text-align: center;
+    border-radius: 3px;   }
+
+  .lab2{
+    width:120px;
+    color:rgb(230, 182, 92);
+    font-size: 12px;
+    text-align: center;
+    border-radius: 3px;  
+  }
+
+  span{
+    color:white;
+  }
+
+  .sel2{
+    width:70px;
+    height: 20px;
+    border:1px rgb(28, 22, 22) solid;
+    font-size: 8px;
+  }
+
+  .prec{
+    background-color: rgb(248, 249, 249);
+    font-size: 10px;
+    width:70px;
+    height: 20px;
+    border:1px darkgreen solid;
+    text-align: center;
+
+  }
+  input{
+    background-color: rgb(248, 249, 249);
+    font-size: 10px;
+    width:90px;
+    height: 20px;
+    border:1px darkgreen solid;
+    text-align: center;
+  }
+
+
+
+}
