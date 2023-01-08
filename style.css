@@ -13,7 +13,7 @@
     /* text-align:left;   */
     padding:10px;
     width:100%;
-    /* font-family: 'Rowdies', cursive; */
+    font-family: 'Rowdies', cursive;
     font-size:14px;
   }
 
@@ -82,7 +82,7 @@
 
   .labcon{
     width:120px;
-    color:rgb(230, 182, 92);
+    color:rgb(247, 246, 244);
     font-size: 22px;
     text-align: justify;
 
