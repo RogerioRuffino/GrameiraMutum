@@ -40,7 +40,7 @@
     
   }
   .image{
-    width:15% 15%;
+    width:15%;
    
     padding-left: 3px;
   }
@@ -109,7 +109,7 @@
 /* ========================================================================== */
 /* -------------------Display responsiove celular--------------------------- */
 /* ========================================================================== */
-@media screen and (max-width:800px)  {
+@media screen and (max-width:600px)  {
   .cab{
     display:inline-flex;
     background-color: rgb(50, 90, 2);
