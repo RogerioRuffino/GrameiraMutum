@@ -162,7 +162,7 @@
   .lab2{
     width:120px;
     color:rgb(230, 182, 92);
-    font-size: 13px;
+    font-size: 14px;
     text-align: center;
     border-radius: 3px;
     padding-bottom: 3px;  
@@ -170,7 +170,7 @@
 
   input{
     background-color: rgb(248, 249, 249);
-    font-size: 13px;
+    font-size: 14px;
     width:45%;
     height: 30px;
     border:1px darkgreen solid;
@@ -180,7 +180,7 @@
     width:45%;
     height: 30px;
     border:1px rgb(28, 22, 22) solid;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   @media screen and (max-width: 250px) {
@@ -188,7 +188,7 @@
       width:45%;
       height: 30px;
       border:1px rgb(28, 22, 22) solid;
-      font-size: 12px;
+      font-size: 14px;
     }
   
   }
