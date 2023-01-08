@@ -147,7 +147,7 @@
 
   .prec{
     background-color: rgb(248, 249, 249);
-    font-size: 12px;
+    font-size: 13px;
     width:25%;
     height: 30px;
     border:1px darkgreen solid;
@@ -170,7 +170,7 @@
 
   input{
     background-color: rgb(248, 249, 249);
-    font-size: 12px;
+    font-size: 13px;
     width:45%;
     height: 30px;
     border:1px darkgreen solid;
@@ -180,7 +180,7 @@
     width:45%;
     height: 30px;
     border:1px rgb(28, 22, 22) solid;
-    font-size: 11px;
+    font-size: 13px;
   }
 
   @media screen and (max-width: 250px) {
@@ -188,7 +188,7 @@
       width:45%;
       height: 30px;
       border:1px rgb(28, 22, 22) solid;
-      font-size: 8px;
+      font-size: 9px;
     }
   
   }
