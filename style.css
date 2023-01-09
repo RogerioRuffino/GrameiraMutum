@@ -152,10 +152,15 @@
       color:rgb(253,254,254);
       font-size:1.3rem;
       flex-wrap:wrap;
-      justify-content: space-between;
-   
-      
-    }}
+      justify-content: space-between;  
+    }
+    .sel2{
+      width:45%;
+      height: 30px;
+      border:1px rgb(28, 22, 22) solid;
+      font-size: 12px;
+    }
+}
 
   @media screen and (max-width:320px)  {
     .cab{
