@@ -111,28 +111,28 @@
 @media screen and (max-width:600px)  {
   .cab{
     display:inline-flex;
-    background-color:  rgb(69,106,65);
+    background-color: rgb(50, 90, 2);
     margin-bottom: 10px;
     width:98%;
     height: auto;
     text-align: center;
+    align-items: center;
       
   }
 
   .title{
-    color: #fdfefe;;
-    font-size:2rem;
+    color:rgb(253,254,254);
+    font-size:1.7rem;
     text-align: center;
     padding-left: 20%; 
     text-align: center;
-    align-items: center;
-  }
-}
+    
+  }}
 
   @media screen and (max-width:400px)  {
     .cab{
       display:inline-flex;
-      background-color:  rgb(69,106,65);
+      background-color: rgb(50, 90, 2);
       margin-bottom: 10px;
       width:98%;
       /* height: auto; */
@@ -142,7 +142,7 @@
     }
   
     .title{
-       color: #fdfefe;;
+    color:rgb(253,254,254);
       font-size:1rem;
       text-align: center;
       padding-left: 20%; 
