@@ -55,7 +55,7 @@ function myResult(){
 
 		result.value = (Math.floor((Number(input.value)) / (50*Number(preco.value))));
 		resultapetes.value = (Math.floor((Number(input.value)) % ((50*Number(preco.value))))/ Number(preco.value)*4).toFixed(2);
-		valor.value = Number(input.value);
+		valor.value = Number(input.value).toFixed(2);
 		m2.value = (Number(input.value)/12).toFixed(2);
 		
 
