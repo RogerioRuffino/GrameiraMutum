@@ -35,15 +35,15 @@ function myResult(){
     if(option_from === "m2" && option_to==="pal"){
 
 		document.getElementById('div1').style.display = 'block';
-       		document.getElementById('div2').style.display = 'none';
+        document.getElementById('div2').style.display = 'none';
 
 		result.value = (Math.floor(Number(input.value) / 50));
 
-		resultapetes.value = (Number(input.value) % 50*4);
+		resultapetes.value = (Number(input.value) % 50*4).toFixed(2);
 
-		valor.value = input.value * Number(preco.value);
+		valor.value = input.value * Number(preco.value).toFixed(2);
 		
-		m2.value = Number(input.value);
+		m2.value = Number(input.value).toFixed(2);
 		
 	} 
 
@@ -51,12 +51,12 @@ function myResult(){
 
 	if(option_from === "R$" && option_to==="pal"){
 		document.getElementById('div2').style.display = 'block';
-    		document.getElementById('div1').style.display = 'none';
+    	document.getElementById('div1').style.display = 'none';
 
 		result.value = (Math.floor((Number(input.value)) / (50*Number(preco.value))));
-		resultapetes.value = (Math.floor((Number(input.value)) % (50*Number(preco.value))))/ Number(preco.value)*4;
+		resultapetes.value = (Math.floor((Number(input.value)) % ((50*Number(preco.value))))/ Number(preco.value)*4).toFixed(2);
 		valor.value = Number(input.value);
-		m2.value = Number(input.value)/12;
+		m2.value = (Number(input.value)/12).toFixed(2);
 		
 
 
