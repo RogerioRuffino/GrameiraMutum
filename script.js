@@ -61,13 +61,5 @@ function myResult(){
 
 
 	}
-	//else if(option_from === "R$" && option_to==="tapetes"){
-	// 	result.value = Number(input.value)/(50*Number(preco.value));
-	// }else if(option_from === "R$" && option_to==="R$"){
-	// 	result.value =  Number(input.value);
-	// }else if(option_from === "R$" && option_to==="pal"){
-	// 	result.value = Number(input.value)/600;
-	// }
-
 
 }
