@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,13 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+<!-- ====================================== -->
 <body>
     <div class="cab">
     <img class="image" width="100px" src="Img/logomutum.jpg" alt="Reference image" />
     <div class="title">Grameira Mutum<br>
         <h6>Conversor</h6>
-        
-        
     </div><br>
        
     </div>
@@ -50,28 +50,31 @@
             <!-- <option value="R$">Valor (R$)</option> -->
             <!-- <option value="pal">Paletes</option> -->
         </select><br>
+        <div id="div1" style="display:block;">
+            <input type="text" placeholder="Valor em R$" id="valor">
+            <span> = </span>
+            <select id="resultType" class="sel2">
+                <option value="R$">Valor (R$)</option>
+                <!-- <option value="m2">Metros Quadrados</option> -->
+                <!-- <option value="tapetes">Qtde de Tapetes</option> -->
+                <!-- <option value="pal">Paletes</option> -->
+            </select><br>
+        </div>
 
-        <input type="text" placeholder="Valor em R$" id="valor">
-        <span> = </span>
-        <select id="resultType" class="sel2">
-            <option value="R$">Valor (R$)</option>
-            <!-- <option value="m2">Metros Quadrados</option> -->
-            <!-- <option value="tapetes">Qtde de Tapetes</option> -->
-            <!-- <option value="pal">Paletes</option> -->
-        </select>
+        <div id="div2" style="display:none;">
+            <input type="text" placeholder="m2" id="m2">
+            <span> = </span>
+            <select id="resultType" class="sel2">
+                <!-- <option value="R$">Valor (R$)</option> -->
+                <option value="m2">Metros Quadrados</option>
+                <!-- <option value="tapetes">Qtde de Tapetes</option> -->
+                <!-- <option value="pal">Paletes</option> -->
+            </select>
+        </div>
 
-
-
-
-
-        
-    
     </div>
-<!-- </div> -->
-
-    
-
-
+ 
     <script src="script.js"></script>
 </body>
 </html>
+
