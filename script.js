@@ -24,9 +24,6 @@ option_to = resultapetes.value;
 option_to = valor.value;
 option_to = m2.value;
 
- 	
-
-
 
 function myResult(){
     option_from = inputType.value;
@@ -58,8 +55,5 @@ function myResult(){
 		valor.value = Number(input.value).toFixed(2);
 		m2.value = (Number(input.value)/12).toFixed(2);
 		
-
-
 	}
-
 }
