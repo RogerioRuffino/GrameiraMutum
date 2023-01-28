@@ -11,12 +11,46 @@
     /* font-family: 'DynaPuff', cursive; */
     /* font-size:32px; */
     /* text-align:left;   */
-    padding:10px;
+    /* padding:3px; */
     width:100%;
     font-family: 'Rowdies', cursive;
     font-size:14px;
   }
 
+   #formulario {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    /* background-color: rgb(27, 152, 69); */
+    /* width: 60%;  */
+    /* margin-left: 3px; */
+    /* padding: 45px 15px; */
+     /* height: 30px;  */
+  }
+  
+  .campo {
+    /* background-color: aqua; */
+    padding: 0%;
+    width: 65%;
+    float:left;
+    color: #c0c0c0;
+
+  }
+
+  .campo input {
+    border-radius:5px;
+    padding-left: 0%;
+ 
+    /* padding: 8px 1%; */
+    width:70%;   
+  }
+  
+   .campo label {
+    color:rgb(248, 246, 246);
+    padding: 5px;
+    width: 94%; 
+   
+  } 
 
 .cab{
   display:inline-flex;
@@ -28,20 +62,18 @@
   width:98%;
   flex-wrap:wrap;
   justify-content: space-between;
-  align-items: center;
-  
+  align-items: center; 
 }
 
   .title{
     color:rgb(253,254,254);
+    text-shadow: aliceblue;
     font-size: 3rem;
     text-align: center;
     text-align: center;
     font-size: 3rem;
     align-items: center;
     justify-content: space-between;
-
-    
   }
   .image{
     width:15% 15%;
@@ -61,15 +93,6 @@
 
   }
     
-  .lab1 {
-    color:rgb(248, 246, 246);
-    font-size: 16px;
-    text-align: center;
-    border-radius: 3px;
-    padding-bottom: 3px;
-  
-  }
-
   .prec{
     background-color: rgb(248, 249, 249);
     font-size: 16px;
@@ -87,23 +110,28 @@
   .labcon{
     width:120px;
     color:white;
-    font-size: 22px;
+    font-size: 20px;
     text-align: justify;
-
     border-radius: 3px;
-    padding-bottom: 3px;  
+    padding-bottom: 3px; 
+    padding-left:2px; 
+    
   }
 
   input{
+  
+    border-radius:5px;
     background-color: rgb(248, 249, 249);
     font-size: 16px;
-    width:45%;
+    width:65%;
     height: 30px;
     border:1px darkgreen solid;
-    text-align: center;
+    text-align: center;  
   }
-  .sel2{
-    width:45%;
+
+  .select{
+    border-radius:5px;
+    width:20%;
     height: 30px;
     border:1px rgb(28, 22, 22) solid;
     font-size: 16px;
@@ -124,6 +152,14 @@
     align-items: center;
       
   }
+  .campo {
+    /* background-color: aqua; */
+    padding: 0%;
+    width: 55%;
+    float:left;
+    color: #c0c0c0;
+
+  }
 
   .title{
     color:rgb(253,254,254);
@@ -135,7 +171,7 @@
     
   }}
 
-  @media screen and (max-width:480px)  {
+  @media screen and (max-width:330px)  {
     .cab{
       display:inline-flex;
       background-color: rgb(50, 90, 2);
@@ -152,33 +188,97 @@
       color:rgb(253,254,254);
       font-size:1.3rem;
       flex-wrap:wrap;
-      justify-content: space-between;  
+      justify-content: space-between;
+   
+      
     }
-    .sel2{
-      width:45%;
+    .campo {
+      /* background-color: aqua; */
+      padding: 0;
+      width: 60%;
+      float:left;
+      color: #c0c0c0;
+      font-size:16px;
+  
+    }
+
+    .campo input {
+      margin-top:3px;
+      padding-left: 0%;
+      
+      /* padding: 8px 1%; */
+      width:88%;
+    }
+    
+     .campo label {
+      font-size: 1rem;
+      margin: 10px 1%;
+      padding: 8px 1%;
+      width: 80%;
+      border: 1px white dashed
+    } 
+    .select{
+      
+      width:30%;
       height: 30px;
       border:1px rgb(28, 22, 22) solid;
       font-size: 12px;
     }
-}
-
+  }
   @media screen and (max-width:320px)  {
     .cab{
       display:inline-flex;
       background-color: rgb(50, 90, 2);
       margin-bottom: 10px;
       width:98%;
-      /* height: auto; */
+      height: auto;
       flex-wrap:wrap;
       justify-content: space-between;
-      align-items: center;        
+      align-items: center;
+        
     }
   
     .title{
-      /* color:rgb(253,254,254); */
-      color:rgb(253,254,254;
-      font-size:1rem;
-      text-align: center;
+      color:rgb(253,254,254);
+      font-size:1.3rem;
       flex-wrap:wrap;
       justify-content: space-between;
-    }}
+   
+      
+    }
+    .campo {
+      /* background-color: aqua; */
+      padding: 0;
+      width: 60%;
+      float:left;
+      color: #c0c0c0;
+      font-size:16px;
+  
+    }
+
+    .campo input {
+      margin-top:3px;
+      padding-left: 0%;
+      
+      /* padding: 8px 1%; */
+      width:88%;
+    }
+    
+     .campo label {
+      font-size: 0.8rem;
+      margin: 10px 1%;
+      padding: 8px 1%;
+      width: 80%;
+      border: 1px white dashed;
+    } 
+    .select{
+      
+      width:30%;
+      height: 30px;
+      border:1px rgb(28, 22, 22) solid;
+      font-size: 12px;
+    }
+  }
+
+ 
+ 
