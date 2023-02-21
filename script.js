@@ -1,3 +1,5 @@
+
+
 const preco = document.getElementById('preco');
 const precofrete = document.getElementById('precofrete');
 
@@ -12,7 +14,12 @@ let display1 = document.getElementById('div1').style.display;
 
 let display2 = document.getElementById('div2').style.display;
 
-
+const callButton = document.getElementById('call-program');
+callButton.addEventListener('click', () => {
+  // code to call another program
+  // for example, redirect to another HTML page:
+  window.location.href = '/AppAreaCalc/index.html';
+});
 
 
 // taking initial values
@@ -107,7 +114,7 @@ function myResult(){
 
 		var pToNum = strtonum(preco.value);
 		var pfrToNum = strtonum(precofrete.value);
-		var eToNUm = strtonum(input.value);
+		var eToNUm = strtonum(ent.value);
 		var tToNum = (((Number(eToNUm)) % ((50*pToNum))) / (pToNum)*4);
 		var m2ToNum = eToNUm/pToNum;
 		
