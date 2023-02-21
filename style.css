@@ -8,10 +8,6 @@
     
   body {
     background-color:rgb(247, 237, 237);
-    /* font-family: 'DynaPuff', cursive; */
-    /* font-size:32px; */
-    /* text-align:left;   */
-    /* padding:3px; */
     width:100%;
     font-family: 'Rowdies', cursive;
     font-size:14px;
@@ -21,11 +17,6 @@
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    /* background-color: rgb(27, 152, 69); */
-    /* width: 60%;  */
-    /* margin-left: 3px; */
-    /* padding: 45px 15px; */
-     /* height: 40px;  */
   }
   
   .campo {
@@ -64,14 +55,21 @@
   justify-content: space-between;
   align-items: center; 
 }
+.cab img{
+  width:10%
+}
+.b1{
+  margin-right: 3%;
+  width:10%;
+  height: 35%;
+}
 
   .title{
     color:rgb(253,254,254);
     text-shadow: aliceblue;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
-    text-align: center;
-    font-size: 3rem;
+
     align-items: center;
     justify-content: space-between;
   }
@@ -80,7 +78,25 @@
    
     padding-left: 3px;
   }
-
+  .b1 {
+    
+    background-color: #15270b;
+    color: white;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 5px #199f19;
+    transition-duration: 0.3s;
+  }
+  
+  .b1:hover {
+    background-color: #4b5f27;
+  }
+    
+  .b1:active {
+      box-shadow: none;
+      transform: translateY(5px);
+    }
   
   .converter{
     background-color: rgb(27, 152, 69);
@@ -140,7 +156,7 @@
 /* ========================================================================== */
 /* -------------------Display responsiove celular--------------------------- */
 /* ========================================================================== */
-@media screen and (max-width:600px)  {
+@media screen and (max-width:1000px)  {
   .cab{
     display:inline-flex;
     background-color: rgb(50, 90, 2);
@@ -163,7 +179,7 @@
 
   .title{
     color:rgb(253,254,254);
-    font-size:2rem;
+    font-size:3rem;
     text-align: center;
     text-align: center;
     flex-wrap:wrap;
@@ -171,61 +187,8 @@
     
   }}
 
-  @media screen and (max-width:330px)  {
-    .cab{
-      display:inline-flex;
-      background-color: rgb(50, 90, 2);
-      margin-bottom: 10px;
-      width:98%;
-      height: auto;
-      flex-wrap:wrap;
-      justify-content: space-between;
-      align-items: center;
-        
-    }
-  
-    .title{
-      color:rgb(253,254,254);
-      font-size:1.3rem;
-      flex-wrap:wrap;
-      justify-content: space-between;
-   
-      
-    }
-    .campo {
-      /* background-color: aqua; */
-      padding: 0;
-      width: 60%;
-      float:left;
-      color: #c0c0c0;
-      font-size:16px;
-  
-    }
-
-    .campo input {
-      margin-top:3px;
-      padding-left: 0%;
-      
-      /* padding: 8px 1%; */
-      width:88%;
-    }
-    
-     .campo label {
-      font-size: 1rem;
-      margin: 10px 1%;
-      padding: 8px 1%;
-      width: 80%;
-
-    } 
-    .select{
-      
-      width:30%;
-      height: 40px;
-      border:1px rgb(28, 22, 22) solid;
-      font-size: 12px;
-    }
-  }
-  @media screen and (max-width:420px)  {
+ 
+  @media screen and (max-width:600px)  {
     .cab{
       display:inline-flex;
       background-color: rgb(50, 90, 2);
@@ -269,7 +232,7 @@
       margin: 10px 1%;
       padding: 8px 1%;
       width: 80%;
-    
+   
     } 
     .select{
       
@@ -279,5 +242,66 @@
       font-size: 12px;
     }
   }
+  @media screen and (max-width:560px)  {
+    .cab{
+      display:inline-flex;
+      background-color: rgb(50, 90, 2);
+      margin-bottom: 10px;
+      width:98%;
+      height: auto;
+      flex-wrap:wrap;
+      justify-content: space-between;
+      align-items: center;  
+    }
 
+    .cab img{
+      width:13%
+    }
+    .b1{
+      width:15%;
+      height: 65%;
+      font-size: 8px;
+  
+    }
+        .title{
+      color:rgb(253,254,254);
+      font-size:0.7rem;
+      flex-wrap:wrap;
+      justify-content: space-between;
+   
+      
+    }
+    .campo {
+      /* background-color: aqua; */
+      padding: 0;
+      width: 60%;
+      float:left;
+      color: #c0c0c0;
+      font-size:16px;
+  
+    }
+
+    .campo input {
+      margin-top:3px;
+      padding-left: 0%;
+      
+      /* padding: 8px 1%; */
+      width:88%;
+    }
+    
+     .campo label {
+      font-size: 0.7rem;
+      margin: 10px 1%;
+      padding: 8px 1%;
+      width: 80%;
+  
+    } 
+    .select{
+      
+      width:30%;
+      height: 40px;
+      border:1px rgb(28, 22, 22) solid;
+      font-size: 12px;
+    }
+  }
  
